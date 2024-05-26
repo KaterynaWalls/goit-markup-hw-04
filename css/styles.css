@@ -162,6 +162,12 @@ background: #fff;
 .main-section {
     background-color: #2e2f42;
     padding: 188px 0;
+    max-width: 1440px;
+    max-height: 600px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg), url(../images/Darkbg.jpg);
+    background-repeat: no-reapet;
+    background-position: center;
+    background-size: cover;
 }
 .container {
     width: 1158px;
@@ -169,18 +175,7 @@ background: #fff;
     padding-right: 15px;
     margin: 0 auto;
     padding-top: 188px 0 188px;
-
 }
-.banner-container {
-    max-width: 1440px;
-    max-height: 600px;
-    background-image: linear-gradient (
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)),
-        url(/images/people-office 1.jpg), 
-        url(/images/Dark-bg.jpg);
-}
-    
 .main-section-title {
     font-weight: 700;
     font-size: 56px;
